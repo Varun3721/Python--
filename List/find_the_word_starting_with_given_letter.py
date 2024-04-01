@@ -16,7 +16,7 @@
 #
 #
 list1=[None]*10
-# print(list1)
+print(list1)
 
 l=[1,2,3]
 l1=[3,4,5]
