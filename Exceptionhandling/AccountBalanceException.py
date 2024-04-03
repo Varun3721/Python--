@@ -4,7 +4,7 @@ class AccountBalanceException(Exception):        #for inheriting exception base 
 
 balance = 10000
 def withdrawl(amnt):
-    global balanceg
+    global balance
     balance -= amnt
 
     if balance<=5000:
@@ -22,6 +22,9 @@ try:
 
 except AccountBalanceException as msg:
     print(msg)
+
+except ValueError as err:
+    print("Invalid entry")
 
 
 

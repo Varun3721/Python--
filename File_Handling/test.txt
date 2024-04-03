@@ -1,0 +1,4 @@
+apples are Red
+oranges are Orange
+Banana are yellow
+Grapes are green
